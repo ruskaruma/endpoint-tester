@@ -1,0 +1,36 @@
+# Secrets — never commit
+.env
+.env.local
+.env.*.local
+
+# Assignment output (generated per run)
+report.json
+
+# Dependencies
+node_modules/
+
+# Bun
+.bun/
+
+# Build / cache
+dist/
+out/
+*.tsbuildinfo
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Optional local overrides (keep .env.example tracked)
+.env.production

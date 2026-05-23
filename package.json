@@ -1,0 +1,17 @@
+{
+  "name": "api-endpoint-validator",
+  "private": true,
+  "scripts": {
+    "setup": "sh setup.sh",
+    "check": "bun src/check.ts",
+    "index": "bun src/index.ts",
+    "connect": "bun src/connect.ts",
+    "run": "bun src/run.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
