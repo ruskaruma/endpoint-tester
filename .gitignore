@@ -35,4 +35,3 @@ Thumbs.db
 
 # Optional local overrides (keep .env.example tracked)
 .env.production
-src_test/
