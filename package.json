@@ -6,7 +6,8 @@
     "check": "bun src/check.ts",
     "index": "bun src/index.ts",
     "connect": "bun src/connect.ts",
-    "run": "bun src/run.ts"
+    "run": "bun src/run.ts",
+    "run:test": "bun src_test/run.ts"
   },
   "devDependencies": {
     "@types/bun": "latest"

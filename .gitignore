@@ -5,6 +5,7 @@
 
 # Assignment output (generated per run)
 report.json
+report-test.json
 
 # Dependencies
 node_modules/
@@ -34,3 +35,4 @@ Thumbs.db
 
 # Optional local overrides (keep .env.example tracked)
 .env.production
+src_test/
